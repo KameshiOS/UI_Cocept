@@ -1,0 +1,1262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F069C06D761300CB8A584C0 /* Pods_PayzakTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7394C964EBCED6111B80D59 /* Pods_PayzakTests.framework */; };
+		38805B32B4AAD742ED410E3C /* Pods_Payzak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161384B8D7632A05E17BC2C1 /* Pods_Payzak.framework */; };
+		5175A62B8677FF9C3E2548F8 /* Pods_PayzakUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 901EA8C5B0BD3C75038F101B /* Pods_PayzakUITests.framework */; };
+		E617931B1F1491B0001BF238 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E617931A1F1491B0001BF238 /* DashboardViewController.swift */; };
+		E617931F1F14A606001BF238 /* TextfieildAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E617931E1F14A606001BF238 /* TextfieildAnimation.swift */; };
+		E63056A11F4AD962004C7003 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63056A01F4AD962004C7003 /* Charts.framework */; };
+		E6336B981F0A5632003A9AD7 /* name.png in Resources */ = {isa = PBXBuildFile; fileRef = E6336B951F0A5632003A9AD7 /* name.png */; };
+		E6336B991F0A5632003A9AD7 /* name@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6336B961F0A5632003A9AD7 /* name@2x.png */; };
+		E6336B9A1F0A5632003A9AD7 /* name@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6336B971F0A5632003A9AD7 /* name@3x.png */; };
+		E6336B9C1F0A57E5003A9AD7 /* TextfieldLeftImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6336B9B1F0A57E5003A9AD7 /* TextfieldLeftImage.swift */; };
+		E6336BA91F0A5A66003A9AD7 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = E6336B9D1F0A5A66003A9AD7 /* calendar.png */; };
+		E6336BAA1F0A5A66003A9AD7 /* calendar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6336B9E1F0A5A66003A9AD7 /* calendar@2x.png */; };
+		E6336BAB1F0A5A66003A9AD7 /* calendar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6336B9F1F0A5A66003A9AD7 /* calendar@3x.png */; };
+		E6336BAC1F0A5A66003A9AD7 /* envelope.png in Resources */ = {isa = PBXBuildFile; fileRef = E6336BA01F0A5A66003A9AD7 /* envelope.png */; };
+		E6336BAD1F0A5A66003A9AD7 /* envelope@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6336BA11F0A5A66003A9AD7 /* envelope@2x.png */; };
+		E6336BAE1F0A5A66003A9AD7 /* envelope@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6336BA21F0A5A66003A9AD7 /* envelope@3x.png */; };
+		E6336BAF1F0A5A66003A9AD7 /* key.png in Resources */ = {isa = PBXBuildFile; fileRef = E6336BA31F0A5A66003A9AD7 /* key.png */; };
+		E6336BB01F0A5A66003A9AD7 /* key@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6336BA41F0A5A66003A9AD7 /* key@2x.png */; };
+		E6336BB11F0A5A66003A9AD7 /* key@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6336BA51F0A5A66003A9AD7 /* key@3x.png */; };
+		E6336BB21F0A5A66003A9AD7 /* smartphone (1).png in Resources */ = {isa = PBXBuildFile; fileRef = E6336BA61F0A5A66003A9AD7 /* smartphone (1).png */; };
+		E6336BB31F0A5A66003A9AD7 /* smartphone (1)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6336BA71F0A5A66003A9AD7 /* smartphone (1)@2x.png */; };
+		E6336BB41F0A5A66003A9AD7 /* smartphone (1)@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6336BA81F0A5A66003A9AD7 /* smartphone (1)@3x.png */; };
+		E6336BB61F0A66D8003A9AD7 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6336BB51F0A66D8003A9AD7 /* SignupViewController.swift */; };
+		E6336BBA1F0A6BB3003A9AD7 /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = E6336BB71F0A6BB3003A9AD7 /* correct.png */; };
+		E6336BBB1F0A6BB3003A9AD7 /* correct@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6336BB81F0A6BB3003A9AD7 /* correct@2x.png */; };
+		E6336BBC1F0A6BB3003A9AD7 /* correct@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6336BB91F0A6BB3003A9AD7 /* correct@3x.png */; };
+		E6336BC81F0A6DEC003A9AD7 /* payzak.png in Resources */ = {isa = PBXBuildFile; fileRef = E6336BC51F0A6DEC003A9AD7 /* payzak.png */; };
+		E6336BC91F0A6DEC003A9AD7 /* payzak@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6336BC61F0A6DEC003A9AD7 /* payzak@2x.png */; };
+		E6336BCA1F0A6DEC003A9AD7 /* payzak@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6336BC71F0A6DEC003A9AD7 /* payzak@3x.png */; };
+		E6336BCC1F0A6E8E003A9AD7 /* ButtonAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6336BCB1F0A6E8E003A9AD7 /* ButtonAnimation.swift */; };
+		E6336BCE1F0A7917003A9AD7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6336BCD1F0A7917003A9AD7 /* LoginViewController.swift */; };
+		E6336BE11F0A818A003A9AD7 /* failure.png in Resources */ = {isa = PBXBuildFile; fileRef = E6336BDB1F0A818A003A9AD7 /* failure.png */; };
+		E6336BE21F0A818A003A9AD7 /* failure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6336BDC1F0A818A003A9AD7 /* failure@2x.png */; };
+		E6336BE31F0A818A003A9AD7 /* failure@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6336BDD1F0A818A003A9AD7 /* failure@3x.png */; };
+		E6336BE41F0A818A003A9AD7 /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = E6336BDE1F0A818A003A9AD7 /* success.png */; };
+		E6336BE51F0A818A003A9AD7 /* success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6336BDF1F0A818A003A9AD7 /* success@2x.png */; };
+		E6336BE61F0A818A003A9AD7 /* success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6336BE01F0A818A003A9AD7 /* success@3x.png */; };
+		E6481ADD1F1F2EEC003D1A70 /* RegisterMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6481ADC1F1F2EEC003D1A70 /* RegisterMethodViewController.swift */; };
+		E6481ADF1F1F4230003D1A70 /* QRSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6481ADE1F1F4230003D1A70 /* QRSignUpViewController.swift */; };
+		E6513B2F1F0A07DC0081D521 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6513B2C1F0A07DC0081D521 /* 1.jpg */; };
+		E6513B301F0A07DC0081D521 /* 1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6513B2D1F0A07DC0081D521 /* 1@2x.jpg */; };
+		E6513B311F0A07DC0081D521 /* 1@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6513B2E1F0A07DC0081D521 /* 1@3x.jpg */; };
+		E6513B361F0A0A7C0081D521 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6513B331F0A0A7C0081D521 /* 2.jpg */; };
+		E6513B371F0A0A7C0081D521 /* 2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6513B341F0A0A7C0081D521 /* 2@2x.jpg */; };
+		E6513B381F0A0A7C0081D521 /* 2@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6513B351F0A0A7C0081D521 /* 2@3x.jpg */; };
+		E6513B461F0A148F0081D521 /* customerCare.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6513B391F0A148F0081D521 /* customerCare.jpg */; };
+		E6513B471F0A148F0081D521 /* customerCare@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6513B3A1F0A148F0081D521 /* customerCare@2x.jpg */; };
+		E6513B481F0A148F0081D521 /* customerCare@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6513B3B1F0A148F0081D521 /* customerCare@3x.jpg */; };
+		E6513B4D1F0A148F0081D521 /* scanCard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6513B401F0A148F0081D521 /* scanCard.jpg */; };
+		E6513B4E1F0A148F0081D521 /* scanCard@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6513B411F0A148F0081D521 /* scanCard@2x.jpg */; };
+		E6513B4F1F0A148F0081D521 /* scanCard@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6513B421F0A148F0081D521 /* scanCard@3x.jpg */; };
+		E6513B501F0A148F0081D521 /* transfer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6513B431F0A148F0081D521 /* transfer.jpg */; };
+		E6513B511F0A148F0081D521 /* transfer@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6513B441F0A148F0081D521 /* transfer@2x.jpg */; };
+		E6513B521F0A148F0081D521 /* transfer@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6513B451F0A148F0081D521 /* transfer@3x.jpg */; };
+		E6513B561F0A154D0081D521 /* notification.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E6513B531F0A154D0081D521 /* notification.jpeg */; };
+		E6513B571F0A154D0081D521 /* notification@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E6513B541F0A154D0081D521 /* notification@2x.jpeg */; };
+		E6513B581F0A154D0081D521 /* notification@3x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E6513B551F0A154D0081D521 /* notification@3x.jpeg */; };
+		E65562811F21D4D100F9EBEE /* KYCVerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65562801F21D4D100F9EBEE /* KYCVerificationViewController.swift */; };
+		E6581A2A1F20CDCA00EEEA19 /* bg1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6581A281F20CDCA00EEEA19 /* bg1.jpg */; };
+		E6581A2B1F20CDCA00EEEA19 /* bg2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6581A291F20CDCA00EEEA19 /* bg2.jpg */; };
+		E6581A2E1F20D0C100EEEA19 /* bg3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6581A2D1F20D0C100EEEA19 /* bg3.jpg */; };
+		E6581A301F20D33400EEEA19 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6581A2F1F20D33400EEEA19 /* GradientView.swift */; };
+		E68F36801F14DFDB00ADC07F /* PaynowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68F367F1F14DFDB00ADC07F /* PaynowViewController.swift */; };
+		E68F36C41F14FB9100ADC07F /* TableAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68F36C31F14FB9100ADC07F /* TableAnimation.swift */; };
+		E69134DF1F1E07870083B9AB /* HalfModalPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69134DE1F1E07870083B9AB /* HalfModalPresentationController.swift */; };
+		E69134E11F1E07DD0083B9AB /* HalfModalInteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69134E01F1E07DD0083B9AB /* HalfModalInteractiveTransition.swift */; };
+		E69134E31F1E082F0083B9AB /* HalfModalTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69134E21F1E082F0083B9AB /* HalfModalTransitionAnimator.swift */; };
+		E69134E51F1E08650083B9AB /* HalfModalTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69134E41F1E08650083B9AB /* HalfModalTransitioningDelegate.swift */; };
+		E6BEFB9A1F0788E5009EDFD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BEFB991F0788E5009EDFD3 /* AppDelegate.swift */; };
+		E6BEFB9F1F0788E5009EDFD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6BEFB9D1F0788E5009EDFD3 /* Main.storyboard */; };
+		E6BEFBA21F0788E5009EDFD3 /* Payzak.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E6BEFBA01F0788E5009EDFD3 /* Payzak.xcdatamodeld */; };
+		E6BEFBA41F0788E5009EDFD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6BEFBA31F0788E5009EDFD3 /* Assets.xcassets */; };
+		E6BEFBA71F0788E5009EDFD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6BEFBA51F0788E5009EDFD3 /* LaunchScreen.storyboard */; };
+		E6BEFBB21F0788E6009EDFD3 /* PayzakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BEFBB11F0788E6009EDFD3 /* PayzakTests.swift */; };
+		E6BEFBBD1F0788E6009EDFD3 /* PayzakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BEFBBC1F0788E6009EDFD3 /* PayzakUITests.swift */; };
+		E6BEFBCE1F078A7A009EDFD3 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BEFBCD1F078A7A009EDFD3 /* StartViewController.swift */; };
+		E6C781451F1E023D004E33A7 /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C781441F1E023D004E33A7 /* FavouritesViewController.swift */; };
+		E6C781471F1E0257004E33A7 /* FavouritesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C781461F1E0257004E33A7 /* FavouritesTableViewCell.swift */; };
+		E6C781491F1E0273004E33A7 /* FavouritesNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C781481F1E0273004E33A7 /* FavouritesNavigationController.swift */; };
+		E6E7BCC11F162C1500464C00 /* BeneficiaryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E7BCC01F162C1500464C00 /* BeneficiaryTableViewController.swift */; };
+		E6E7BCC31F162DB200464C00 /* BeneficiaryFoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E7BCC21F162DB200464C00 /* BeneficiaryFoldingCell.swift */; };
+		E6E7BCC71F163A2200464C00 /* ViewAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E7BCC61F163A2200464C00 /* ViewAnimation.swift */; };
+		E6E7BCC91F164D2900464C00 /* beneficiaryBG.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E6E7BCC81F164D2900464C00 /* beneficiaryBG.jpeg */; };
+		E6E7BCCB1F173A5500464C00 /* TableViewAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E7BCCA1F173A5500464C00 /* TableViewAnimation.swift */; };
+		E6E7BCCD1F177DEE00464C00 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E7BCCC1F177DEE00464C00 /* HistoryTableViewController.swift */; };
+		E6E7BCEA1F17885400464C00 /* coffee.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E7BCE11F17885400464C00 /* coffee.png */; };
+		E6E7BCEB1F17885400464C00 /* coffee@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E7BCE21F17885400464C00 /* coffee@2x.png */; };
+		E6E7BCEC1F17885400464C00 /* coffee@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E7BCE31F17885400464C00 /* coffee@3x.png */; };
+		E6E7BCED1F17885400464C00 /* groceries.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E7BCE41F17885400464C00 /* groceries.png */; };
+		E6E7BCEE1F17885400464C00 /* groceries@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E7BCE51F17885400464C00 /* groceries@2x.png */; };
+		E6E7BCEF1F17885400464C00 /* groceries@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E7BCE61F17885400464C00 /* groceries@3x.png */; };
+		E6E7BCF01F17885400464C00 /* watermelon.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E7BCE71F17885400464C00 /* watermelon.png */; };
+		E6E7BCF11F17885400464C00 /* watermelon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E7BCE81F17885400464C00 /* watermelon@2x.png */; };
+		E6E7BCF21F17885400464C00 /* watermelon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E7BCE91F17885400464C00 /* watermelon@3x.png */; };
+		E6E7BCF41F178EF700464C00 /* DashedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E7BCF31F178EF700464C00 /* DashedView.swift */; };
+		E6E7BCFB1F17AA3900464C00 /* liquid.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E7BCF51F17AA3900464C00 /* liquid.png */; };
+		E6E7BCFC1F17AA3900464C00 /* liquid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E7BCF61F17AA3900464C00 /* liquid@2x.png */; };
+		E6E7BCFD1F17AA3900464C00 /* liquid@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E7BCF71F17AA3900464C00 /* liquid@3x.png */; };
+		E6E7BCFE1F17AA3900464C00 /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E7BCF81F17AA3900464C00 /* mail.png */; };
+		E6E7BCFF1F17AA3900464C00 /* mail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E7BCF91F17AA3900464C00 /* mail@2x.png */; };
+		E6E7BD001F17AA3900464C00 /* mail@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E7BCFA1F17AA3900464C00 /* mail@3x.png */; };
+		E6ED83531F18872900F105EC /* anushka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6ED83521F18872900F105EC /* anushka.jpg */; };
+		E6ED83551F18880500F105EC /* ImageViewAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6ED83541F18880500F105EC /* ImageViewAnimation.swift */; };
+		E6ED83571F18896000F105EC /* ProfileDashedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6ED83561F18896000F105EC /* ProfileDashedView.swift */; };
+		E6ED83591F1897FC00F105EC /* BezierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6ED83581F1897FC00F105EC /* BezierView.swift */; };
+		E6ED835B1F18C66100F105EC /* LabelLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6ED835A1F18C66100F105EC /* LabelLine.swift */; };
+		E6F6EB401F1A0C390006065F /* RecentActivityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F6EB3F1F1A0C390006065F /* RecentActivityTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6BEFBAE1F0788E6009EDFD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6BEFB8E1F0788E5009EDFD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6BEFB951F0788E5009EDFD3;
+			remoteInfo = Payzak;
+		};
+		E6BEFBB91F0788E6009EDFD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6BEFB8E1F0788E5009EDFD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6BEFB951F0788E5009EDFD3;
+			remoteInfo = Payzak;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E6F6EB3D1F19FDEC0006065F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		02D2575FFF406A167130D112 /* Pods-Payzak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Payzak.release.xcconfig"; path = "Pods/Target Support Files/Pods-Payzak/Pods-Payzak.release.xcconfig"; sourceTree = "<group>"; };
+		1230717224B7D401E841F3F8 /* Pods-PayzakTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayzakTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayzakTests/Pods-PayzakTests.release.xcconfig"; sourceTree = "<group>"; };
+		161384B8D7632A05E17BC2C1 /* Pods_Payzak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Payzak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D13CDE404DA6BD383B0BCDE /* Pods-PayzakUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayzakUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayzakUITests/Pods-PayzakUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		901EA8C5B0BD3C75038F101B /* Pods_PayzakUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayzakUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		990EFC43D93DEE2C85B26D2E /* Pods-Payzak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Payzak.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Payzak/Pods-Payzak.debug.xcconfig"; sourceTree = "<group>"; };
+		A87C5A3E8E0C921DBC96D91C /* Pods-PayzakTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayzakTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayzakTests/Pods-PayzakTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E617931A1F1491B0001BF238 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		E617931E1F14A606001BF238 /* TextfieildAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextfieildAnimation.swift; sourceTree = "<group>"; };
+		E63056A01F4AD962004C7003 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = "../../Library/Developer/Xcode/DerivedData/Payzak-dnqpjldilerklagzzigvsfioxatc/Build/Products/Debug-iphoneos/Charts/Charts.framework"; sourceTree = "<group>"; };
+		E6336B951F0A5632003A9AD7 /* name.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = name.png; sourceTree = "<group>"; };
+		E6336B961F0A5632003A9AD7 /* name@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "name@2x.png"; sourceTree = "<group>"; };
+		E6336B971F0A5632003A9AD7 /* name@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "name@3x.png"; sourceTree = "<group>"; };
+		E6336B9B1F0A57E5003A9AD7 /* TextfieldLeftImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextfieldLeftImage.swift; sourceTree = "<group>"; };
+		E6336B9D1F0A5A66003A9AD7 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
+		E6336B9E1F0A5A66003A9AD7 /* calendar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar@2x.png"; sourceTree = "<group>"; };
+		E6336B9F1F0A5A66003A9AD7 /* calendar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar@3x.png"; sourceTree = "<group>"; };
+		E6336BA01F0A5A66003A9AD7 /* envelope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = envelope.png; sourceTree = "<group>"; };
+		E6336BA11F0A5A66003A9AD7 /* envelope@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "envelope@2x.png"; sourceTree = "<group>"; };
+		E6336BA21F0A5A66003A9AD7 /* envelope@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "envelope@3x.png"; sourceTree = "<group>"; };
+		E6336BA31F0A5A66003A9AD7 /* key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = key.png; sourceTree = "<group>"; };
+		E6336BA41F0A5A66003A9AD7 /* key@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "key@2x.png"; sourceTree = "<group>"; };
+		E6336BA51F0A5A66003A9AD7 /* key@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "key@3x.png"; sourceTree = "<group>"; };
+		E6336BA61F0A5A66003A9AD7 /* smartphone (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smartphone (1).png"; sourceTree = "<group>"; };
+		E6336BA71F0A5A66003A9AD7 /* smartphone (1)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smartphone (1)@2x.png"; sourceTree = "<group>"; };
+		E6336BA81F0A5A66003A9AD7 /* smartphone (1)@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smartphone (1)@3x.png"; sourceTree = "<group>"; };
+		E6336BB51F0A66D8003A9AD7 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		E6336BB71F0A6BB3003A9AD7 /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
+		E6336BB81F0A6BB3003A9AD7 /* correct@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "correct@2x.png"; sourceTree = "<group>"; };
+		E6336BB91F0A6BB3003A9AD7 /* correct@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "correct@3x.png"; sourceTree = "<group>"; };
+		E6336BC51F0A6DEC003A9AD7 /* payzak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = payzak.png; sourceTree = "<group>"; };
+		E6336BC61F0A6DEC003A9AD7 /* payzak@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "payzak@2x.png"; sourceTree = "<group>"; };
+		E6336BC71F0A6DEC003A9AD7 /* payzak@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "payzak@3x.png"; sourceTree = "<group>"; };
+		E6336BCB1F0A6E8E003A9AD7 /* ButtonAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonAnimation.swift; sourceTree = "<group>"; };
+		E6336BCD1F0A7917003A9AD7 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E6336BDB1F0A818A003A9AD7 /* failure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = failure.png; sourceTree = "<group>"; };
+		E6336BDC1F0A818A003A9AD7 /* failure@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "failure@2x.png"; sourceTree = "<group>"; };
+		E6336BDD1F0A818A003A9AD7 /* failure@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "failure@3x.png"; sourceTree = "<group>"; };
+		E6336BDE1F0A818A003A9AD7 /* success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = success.png; sourceTree = "<group>"; };
+		E6336BDF1F0A818A003A9AD7 /* success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "success@2x.png"; sourceTree = "<group>"; };
+		E6336BE01F0A818A003A9AD7 /* success@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "success@3x.png"; sourceTree = "<group>"; };
+		E6481ADC1F1F2EEC003D1A70 /* RegisterMethodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterMethodViewController.swift; sourceTree = "<group>"; };
+		E6481ADE1F1F4230003D1A70 /* QRSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRSignUpViewController.swift; sourceTree = "<group>"; };
+		E6513B291F0A04250081D521 /* Payzak-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Payzak-Bridging-Header.h"; sourceTree = "<group>"; };
+		E6513B2C1F0A07DC0081D521 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		E6513B2D1F0A07DC0081D521 /* 1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1@2x.jpg"; sourceTree = "<group>"; };
+		E6513B2E1F0A07DC0081D521 /* 1@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1@3x.jpg"; sourceTree = "<group>"; };
+		E6513B331F0A0A7C0081D521 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		E6513B341F0A0A7C0081D521 /* 2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2@2x.jpg"; sourceTree = "<group>"; };
+		E6513B351F0A0A7C0081D521 /* 2@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2@3x.jpg"; sourceTree = "<group>"; };
+		E6513B391F0A148F0081D521 /* customerCare.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = customerCare.jpg; sourceTree = "<group>"; };
+		E6513B3A1F0A148F0081D521 /* customerCare@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "customerCare@2x.jpg"; sourceTree = "<group>"; };
+		E6513B3B1F0A148F0081D521 /* customerCare@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "customerCare@3x.jpg"; sourceTree = "<group>"; };
+		E6513B401F0A148F0081D521 /* scanCard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scanCard.jpg; sourceTree = "<group>"; };
+		E6513B411F0A148F0081D521 /* scanCard@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "scanCard@2x.jpg"; sourceTree = "<group>"; };
+		E6513B421F0A148F0081D521 /* scanCard@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "scanCard@3x.jpg"; sourceTree = "<group>"; };
+		E6513B431F0A148F0081D521 /* transfer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = transfer.jpg; sourceTree = "<group>"; };
+		E6513B441F0A148F0081D521 /* transfer@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "transfer@2x.jpg"; sourceTree = "<group>"; };
+		E6513B451F0A148F0081D521 /* transfer@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "transfer@3x.jpg"; sourceTree = "<group>"; };
+		E6513B531F0A154D0081D521 /* notification.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = notification.jpeg; sourceTree = "<group>"; };
+		E6513B541F0A154D0081D521 /* notification@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "notification@2x.jpeg"; sourceTree = "<group>"; };
+		E6513B551F0A154D0081D521 /* notification@3x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "notification@3x.jpeg"; sourceTree = "<group>"; };
+		E65562801F21D4D100F9EBEE /* KYCVerificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYCVerificationViewController.swift; sourceTree = "<group>"; };
+		E6581A281F20CDCA00EEEA19 /* bg1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg1.jpg; sourceTree = "<group>"; };
+		E6581A291F20CDCA00EEEA19 /* bg2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg2.jpg; sourceTree = "<group>"; };
+		E6581A2D1F20D0C100EEEA19 /* bg3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg3.jpg; sourceTree = "<group>"; };
+		E6581A2F1F20D33400EEEA19 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		E68F367F1F14DFDB00ADC07F /* PaynowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaynowViewController.swift; sourceTree = "<group>"; };
+		E68F36C31F14FB9100ADC07F /* TableAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableAnimation.swift; sourceTree = "<group>"; };
+		E69134DE1F1E07870083B9AB /* HalfModalPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfModalPresentationController.swift; sourceTree = "<group>"; };
+		E69134E01F1E07DD0083B9AB /* HalfModalInteractiveTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfModalInteractiveTransition.swift; sourceTree = "<group>"; };
+		E69134E21F1E082F0083B9AB /* HalfModalTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfModalTransitionAnimator.swift; sourceTree = "<group>"; };
+		E69134E41F1E08650083B9AB /* HalfModalTransitioningDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfModalTransitioningDelegate.swift; sourceTree = "<group>"; };
+		E6BEFB961F0788E5009EDFD3 /* Payzak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Payzak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6BEFB991F0788E5009EDFD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6BEFB9E1F0788E5009EDFD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6BEFBA11F0788E5009EDFD3 /* Payzak.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Payzak.xcdatamodel; sourceTree = "<group>"; };
+		E6BEFBA31F0788E5009EDFD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6BEFBA61F0788E5009EDFD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6BEFBA81F0788E5009EDFD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6BEFBAD1F0788E6009EDFD3 /* PayzakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayzakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6BEFBB11F0788E6009EDFD3 /* PayzakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayzakTests.swift; sourceTree = "<group>"; };
+		E6BEFBB31F0788E6009EDFD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6BEFBB81F0788E6009EDFD3 /* PayzakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayzakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6BEFBBC1F0788E6009EDFD3 /* PayzakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayzakUITests.swift; sourceTree = "<group>"; };
+		E6BEFBBE1F0788E6009EDFD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6BEFBCD1F078A7A009EDFD3 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		E6C781441F1E023D004E33A7 /* FavouritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		E6C781461F1E0257004E33A7 /* FavouritesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouritesTableViewCell.swift; sourceTree = "<group>"; };
+		E6C781481F1E0273004E33A7 /* FavouritesNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouritesNavigationController.swift; sourceTree = "<group>"; };
+		E6E7BCC01F162C1500464C00 /* BeneficiaryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeneficiaryTableViewController.swift; sourceTree = "<group>"; };
+		E6E7BCC21F162DB200464C00 /* BeneficiaryFoldingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeneficiaryFoldingCell.swift; sourceTree = "<group>"; };
+		E6E7BCC61F163A2200464C00 /* ViewAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewAnimation.swift; sourceTree = "<group>"; };
+		E6E7BCC81F164D2900464C00 /* beneficiaryBG.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beneficiaryBG.jpeg; sourceTree = "<group>"; };
+		E6E7BCCA1F173A5500464C00 /* TableViewAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewAnimation.swift; sourceTree = "<group>"; };
+		E6E7BCCC1F177DEE00464C00 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		E6E7BCE11F17885400464C00 /* coffee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coffee.png; sourceTree = "<group>"; };
+		E6E7BCE21F17885400464C00 /* coffee@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coffee@2x.png"; sourceTree = "<group>"; };
+		E6E7BCE31F17885400464C00 /* coffee@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coffee@3x.png"; sourceTree = "<group>"; };
+		E6E7BCE41F17885400464C00 /* groceries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = groceries.png; sourceTree = "<group>"; };
+		E6E7BCE51F17885400464C00 /* groceries@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "groceries@2x.png"; sourceTree = "<group>"; };
+		E6E7BCE61F17885400464C00 /* groceries@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "groceries@3x.png"; sourceTree = "<group>"; };
+		E6E7BCE71F17885400464C00 /* watermelon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watermelon.png; sourceTree = "<group>"; };
+		E6E7BCE81F17885400464C00 /* watermelon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "watermelon@2x.png"; sourceTree = "<group>"; };
+		E6E7BCE91F17885400464C00 /* watermelon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "watermelon@3x.png"; sourceTree = "<group>"; };
+		E6E7BCF31F178EF700464C00 /* DashedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashedView.swift; sourceTree = "<group>"; };
+		E6E7BCF51F17AA3900464C00 /* liquid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = liquid.png; sourceTree = "<group>"; };
+		E6E7BCF61F17AA3900464C00 /* liquid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "liquid@2x.png"; sourceTree = "<group>"; };
+		E6E7BCF71F17AA3900464C00 /* liquid@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "liquid@3x.png"; sourceTree = "<group>"; };
+		E6E7BCF81F17AA3900464C00 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
+		E6E7BCF91F17AA3900464C00 /* mail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail@2x.png"; sourceTree = "<group>"; };
+		E6E7BCFA1F17AA3900464C00 /* mail@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail@3x.png"; sourceTree = "<group>"; };
+		E6ED83521F18872900F105EC /* anushka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = anushka.jpg; sourceTree = "<group>"; };
+		E6ED83541F18880500F105EC /* ImageViewAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewAnimation.swift; sourceTree = "<group>"; };
+		E6ED83561F18896000F105EC /* ProfileDashedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileDashedView.swift; sourceTree = "<group>"; };
+		E6ED83581F1897FC00F105EC /* BezierView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BezierView.swift; sourceTree = "<group>"; };
+		E6ED835A1F18C66100F105EC /* LabelLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelLine.swift; sourceTree = "<group>"; };
+		E6F6EB3F1F1A0C390006065F /* RecentActivityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentActivityTableViewCell.swift; sourceTree = "<group>"; };
+		E7394C964EBCED6111B80D59 /* Pods_PayzakTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayzakTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1DAD928D58A40447868FB6 /* Pods-PayzakUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayzakUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayzakUITests/Pods-PayzakUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6BEFB931F0788E5009EDFD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63056A11F4AD962004C7003 /* Charts.framework in Frameworks */,
+				38805B32B4AAD742ED410E3C /* Pods_Payzak.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6BEFBAA1F0788E6009EDFD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F069C06D761300CB8A584C0 /* Pods_PayzakTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6BEFBB51F0788E6009EDFD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5175A62B8677FF9C3E2548F8 /* Pods_PayzakUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E1731B513855CFE79509912 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				990EFC43D93DEE2C85B26D2E /* Pods-Payzak.debug.xcconfig */,
+				02D2575FFF406A167130D112 /* Pods-Payzak.release.xcconfig */,
+				A87C5A3E8E0C921DBC96D91C /* Pods-PayzakTests.debug.xcconfig */,
+				1230717224B7D401E841F3F8 /* Pods-PayzakTests.release.xcconfig */,
+				5D13CDE404DA6BD383B0BCDE /* Pods-PayzakUITests.debug.xcconfig */,
+				FF1DAD928D58A40447868FB6 /* Pods-PayzakUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		43C57472328D373505B466D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E63056A01F4AD962004C7003 /* Charts.framework */,
+				161384B8D7632A05E17BC2C1 /* Pods_Payzak.framework */,
+				E7394C964EBCED6111B80D59 /* Pods_PayzakTests.framework */,
+				901EA8C5B0BD3C75038F101B /* Pods_PayzakUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6513B321F0A07E40081D521 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E6581A281F20CDCA00EEEA19 /* bg1.jpg */,
+				E6581A291F20CDCA00EEEA19 /* bg2.jpg */,
+				E6581A2D1F20D0C100EEEA19 /* bg3.jpg */,
+				E6E7BCC81F164D2900464C00 /* beneficiaryBG.jpeg */,
+				E6336B9D1F0A5A66003A9AD7 /* calendar.png */,
+				E6336B9E1F0A5A66003A9AD7 /* calendar@2x.png */,
+				E6336B9F1F0A5A66003A9AD7 /* calendar@3x.png */,
+				E6336BA01F0A5A66003A9AD7 /* envelope.png */,
+				E6336BA11F0A5A66003A9AD7 /* envelope@2x.png */,
+				E6336BA21F0A5A66003A9AD7 /* envelope@3x.png */,
+				E6336BA31F0A5A66003A9AD7 /* key.png */,
+				E6336BA41F0A5A66003A9AD7 /* key@2x.png */,
+				E6336BA51F0A5A66003A9AD7 /* key@3x.png */,
+				E6336BA61F0A5A66003A9AD7 /* smartphone (1).png */,
+				E6336BA71F0A5A66003A9AD7 /* smartphone (1)@2x.png */,
+				E6336BA81F0A5A66003A9AD7 /* smartphone (1)@3x.png */,
+				E6336B951F0A5632003A9AD7 /* name.png */,
+				E6336B961F0A5632003A9AD7 /* name@2x.png */,
+				E6336B971F0A5632003A9AD7 /* name@3x.png */,
+				E6513B2C1F0A07DC0081D521 /* 1.jpg */,
+				E6513B2D1F0A07DC0081D521 /* 1@2x.jpg */,
+				E6513B2E1F0A07DC0081D521 /* 1@3x.jpg */,
+				E6513B331F0A0A7C0081D521 /* 2.jpg */,
+				E6513B341F0A0A7C0081D521 /* 2@2x.jpg */,
+				E6513B351F0A0A7C0081D521 /* 2@3x.jpg */,
+				E6513B391F0A148F0081D521 /* customerCare.jpg */,
+				E6513B3A1F0A148F0081D521 /* customerCare@2x.jpg */,
+				E6513B3B1F0A148F0081D521 /* customerCare@3x.jpg */,
+				E6513B401F0A148F0081D521 /* scanCard.jpg */,
+				E6513B411F0A148F0081D521 /* scanCard@2x.jpg */,
+				E6513B421F0A148F0081D521 /* scanCard@3x.jpg */,
+				E6513B431F0A148F0081D521 /* transfer.jpg */,
+				E6513B441F0A148F0081D521 /* transfer@2x.jpg */,
+				E6513B451F0A148F0081D521 /* transfer@3x.jpg */,
+				E6513B531F0A154D0081D521 /* notification.jpeg */,
+				E6513B541F0A154D0081D521 /* notification@2x.jpeg */,
+				E6513B551F0A154D0081D521 /* notification@3x.jpeg */,
+				E6336BB71F0A6BB3003A9AD7 /* correct.png */,
+				E6336BB81F0A6BB3003A9AD7 /* correct@2x.png */,
+				E6336BB91F0A6BB3003A9AD7 /* correct@3x.png */,
+				E6336BC51F0A6DEC003A9AD7 /* payzak.png */,
+				E6336BC61F0A6DEC003A9AD7 /* payzak@2x.png */,
+				E6336BC71F0A6DEC003A9AD7 /* payzak@3x.png */,
+				E6336BDB1F0A818A003A9AD7 /* failure.png */,
+				E6336BDC1F0A818A003A9AD7 /* failure@2x.png */,
+				E6336BDD1F0A818A003A9AD7 /* failure@3x.png */,
+				E6336BDE1F0A818A003A9AD7 /* success.png */,
+				E6336BDF1F0A818A003A9AD7 /* success@2x.png */,
+				E6336BE01F0A818A003A9AD7 /* success@3x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		E69134DC1F1E074E0083B9AB /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				E69134DE1F1E07870083B9AB /* HalfModalPresentationController.swift */,
+			);
+			name = Presentation;
+			sourceTree = "<group>";
+		};
+		E69134DD1F1E075C0083B9AB /* Transitioning */ = {
+			isa = PBXGroup;
+			children = (
+				E69134E01F1E07DD0083B9AB /* HalfModalInteractiveTransition.swift */,
+				E69134E21F1E082F0083B9AB /* HalfModalTransitionAnimator.swift */,
+				E69134E41F1E08650083B9AB /* HalfModalTransitioningDelegate.swift */,
+			);
+			name = Transitioning;
+			sourceTree = "<group>";
+		};
+		E6BEFB8D1F0788E5009EDFD3 = {
+			isa = PBXGroup;
+			children = (
+				E6BEFB981F0788E5009EDFD3 /* Payzak */,
+				E6BEFBB01F0788E6009EDFD3 /* PayzakTests */,
+				E6BEFBBB1F0788E6009EDFD3 /* PayzakUITests */,
+				E6BEFB971F0788E5009EDFD3 /* Products */,
+				1E1731B513855CFE79509912 /* Pods */,
+				43C57472328D373505B466D1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E6BEFB971F0788E5009EDFD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6BEFB961F0788E5009EDFD3 /* Payzak.app */,
+				E6BEFBAD1F0788E6009EDFD3 /* PayzakTests.xctest */,
+				E6BEFBB81F0788E6009EDFD3 /* PayzakUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6BEFB981F0788E5009EDFD3 /* Payzak */ = {
+			isa = PBXGroup;
+			children = (
+				E69134DD1F1E075C0083B9AB /* Transitioning */,
+				E69134DC1F1E074E0083B9AB /* Presentation */,
+				E6E7BCCE1F17875200464C00 /* Category Image */,
+				E6513B321F0A07E40081D521 /* Images */,
+				E6BEFBCC1F078997009EDFD3 /* Modal */,
+				E6BEFBCB1F078993009EDFD3 /* View */,
+				E6BEFBCA1F07898A009EDFD3 /* Controller */,
+				E6BEFB991F0788E5009EDFD3 /* AppDelegate.swift */,
+				E6BEFB9D1F0788E5009EDFD3 /* Main.storyboard */,
+				E6BEFBA31F0788E5009EDFD3 /* Assets.xcassets */,
+				E6BEFBA51F0788E5009EDFD3 /* LaunchScreen.storyboard */,
+				E6BEFBA81F0788E5009EDFD3 /* Info.plist */,
+				E6BEFBA01F0788E5009EDFD3 /* Payzak.xcdatamodeld */,
+				E6513B291F0A04250081D521 /* Payzak-Bridging-Header.h */,
+			);
+			path = Payzak;
+			sourceTree = "<group>";
+		};
+		E6BEFBB01F0788E6009EDFD3 /* PayzakTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6BEFBB11F0788E6009EDFD3 /* PayzakTests.swift */,
+				E6BEFBB31F0788E6009EDFD3 /* Info.plist */,
+			);
+			path = PayzakTests;
+			sourceTree = "<group>";
+		};
+		E6BEFBBB1F0788E6009EDFD3 /* PayzakUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6BEFBBC1F0788E6009EDFD3 /* PayzakUITests.swift */,
+				E6BEFBBE1F0788E6009EDFD3 /* Info.plist */,
+			);
+			path = PayzakUITests;
+			sourceTree = "<group>";
+		};
+		E6BEFBCA1F07898A009EDFD3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E6BEFBCD1F078A7A009EDFD3 /* StartViewController.swift */,
+				E6336BB51F0A66D8003A9AD7 /* SignupViewController.swift */,
+				E6336BCD1F0A7917003A9AD7 /* LoginViewController.swift */,
+				E617931A1F1491B0001BF238 /* DashboardViewController.swift */,
+				E6F6EB3F1F1A0C390006065F /* RecentActivityTableViewCell.swift */,
+				E6E7BCC01F162C1500464C00 /* BeneficiaryTableViewController.swift */,
+				E6E7BCC21F162DB200464C00 /* BeneficiaryFoldingCell.swift */,
+				E68F367F1F14DFDB00ADC07F /* PaynowViewController.swift */,
+				E6E7BCCC1F177DEE00464C00 /* HistoryTableViewController.swift */,
+				E6C781441F1E023D004E33A7 /* FavouritesViewController.swift */,
+				E6C781461F1E0257004E33A7 /* FavouritesTableViewCell.swift */,
+				E6C781481F1E0273004E33A7 /* FavouritesNavigationController.swift */,
+				E6481ADC1F1F2EEC003D1A70 /* RegisterMethodViewController.swift */,
+				E6481ADE1F1F4230003D1A70 /* QRSignUpViewController.swift */,
+				E65562801F21D4D100F9EBEE /* KYCVerificationViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E6BEFBCB1F078993009EDFD3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E6336B9B1F0A57E5003A9AD7 /* TextfieldLeftImage.swift */,
+				E6336BCB1F0A6E8E003A9AD7 /* ButtonAnimation.swift */,
+				E617931E1F14A606001BF238 /* TextfieildAnimation.swift */,
+				E68F36C31F14FB9100ADC07F /* TableAnimation.swift */,
+				E6E7BCC61F163A2200464C00 /* ViewAnimation.swift */,
+				E6E7BCCA1F173A5500464C00 /* TableViewAnimation.swift */,
+				E6E7BCF31F178EF700464C00 /* DashedView.swift */,
+				E6ED83541F18880500F105EC /* ImageViewAnimation.swift */,
+				E6ED83561F18896000F105EC /* ProfileDashedView.swift */,
+				E6ED83581F1897FC00F105EC /* BezierView.swift */,
+				E6ED835A1F18C66100F105EC /* LabelLine.swift */,
+				E6581A2F1F20D33400EEEA19 /* GradientView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E6BEFBCC1F078997009EDFD3 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+		E6E7BCCE1F17875200464C00 /* Category Image */ = {
+			isa = PBXGroup;
+			children = (
+				E6E7BCE11F17885400464C00 /* coffee.png */,
+				E6E7BCE21F17885400464C00 /* coffee@2x.png */,
+				E6E7BCE31F17885400464C00 /* coffee@3x.png */,
+				E6E7BCE41F17885400464C00 /* groceries.png */,
+				E6E7BCE51F17885400464C00 /* groceries@2x.png */,
+				E6E7BCE61F17885400464C00 /* groceries@3x.png */,
+				E6E7BCE71F17885400464C00 /* watermelon.png */,
+				E6E7BCE81F17885400464C00 /* watermelon@2x.png */,
+				E6E7BCE91F17885400464C00 /* watermelon@3x.png */,
+				E6E7BCF51F17AA3900464C00 /* liquid.png */,
+				E6E7BCF61F17AA3900464C00 /* liquid@2x.png */,
+				E6E7BCF71F17AA3900464C00 /* liquid@3x.png */,
+				E6E7BCF81F17AA3900464C00 /* mail.png */,
+				E6E7BCF91F17AA3900464C00 /* mail@2x.png */,
+				E6E7BCFA1F17AA3900464C00 /* mail@3x.png */,
+				E6ED83521F18872900F105EC /* anushka.jpg */,
+			);
+			name = "Category Image";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6BEFB951F0788E5009EDFD3 /* Payzak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6BEFBC11F0788E6009EDFD3 /* Build configuration list for PBXNativeTarget "Payzak" */;
+			buildPhases = (
+				4DE957733557FCDAA07280ED /* [CP] Check Pods Manifest.lock */,
+				E6BEFB921F0788E5009EDFD3 /* Sources */,
+				E6BEFB931F0788E5009EDFD3 /* Frameworks */,
+				E6BEFB941F0788E5009EDFD3 /* Resources */,
+				634ACBB329FBE99CB790A928 /* [CP] Embed Pods Frameworks */,
+				0DA72176364CF87E73B19AE8 /* [CP] Copy Pods Resources */,
+				E6F6EB3D1F19FDEC0006065F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Payzak;
+			productName = Payzak;
+			productReference = E6BEFB961F0788E5009EDFD3 /* Payzak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6BEFBAC1F0788E6009EDFD3 /* PayzakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6BEFBC41F0788E6009EDFD3 /* Build configuration list for PBXNativeTarget "PayzakTests" */;
+			buildPhases = (
+				A509F345CABE8E7AB2D566E1 /* [CP] Check Pods Manifest.lock */,
+				E6BEFBA91F0788E6009EDFD3 /* Sources */,
+				E6BEFBAA1F0788E6009EDFD3 /* Frameworks */,
+				E6BEFBAB1F0788E6009EDFD3 /* Resources */,
+				6FE68D0B05CA72E998C78793 /* [CP] Embed Pods Frameworks */,
+				48B7E7CD8246EA4BF4DFD4A6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6BEFBAF1F0788E6009EDFD3 /* PBXTargetDependency */,
+			);
+			name = PayzakTests;
+			productName = PayzakTests;
+			productReference = E6BEFBAD1F0788E6009EDFD3 /* PayzakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6BEFBB71F0788E6009EDFD3 /* PayzakUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6BEFBC71F0788E6009EDFD3 /* Build configuration list for PBXNativeTarget "PayzakUITests" */;
+			buildPhases = (
+				7CD4CADA0DF6CCCB6145F9AB /* [CP] Check Pods Manifest.lock */,
+				E6BEFBB41F0788E6009EDFD3 /* Sources */,
+				E6BEFBB51F0788E6009EDFD3 /* Frameworks */,
+				E6BEFBB61F0788E6009EDFD3 /* Resources */,
+				505856CF2A637F45ADCE9379 /* [CP] Embed Pods Frameworks */,
+				85FE3F527DF0178E0EF76DB3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6BEFBBA1F0788E6009EDFD3 /* PBXTargetDependency */,
+			);
+			name = PayzakUITests;
+			productName = PayzakUITests;
+			productReference = E6BEFBB81F0788E6009EDFD3 /* PayzakUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6BEFB8E1F0788E5009EDFD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Payzak Financial Service";
+				TargetAttributes = {
+					E6BEFB951F0788E5009EDFD3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6UV9A5QX2J;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					E6BEFBAC1F0788E6009EDFD3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = X5JVCUAPH2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E6BEFB951F0788E5009EDFD3;
+					};
+					E6BEFBB71F0788E6009EDFD3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = X5JVCUAPH2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E6BEFB951F0788E5009EDFD3;
+					};
+				};
+			};
+			buildConfigurationList = E6BEFB911F0788E5009EDFD3 /* Build configuration list for PBXProject "Payzak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6BEFB8D1F0788E5009EDFD3;
+			productRefGroup = E6BEFB971F0788E5009EDFD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6BEFB951F0788E5009EDFD3 /* Payzak */,
+				E6BEFBAC1F0788E6009EDFD3 /* PayzakTests */,
+				E6BEFBB71F0788E6009EDFD3 /* PayzakUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6BEFB941F0788E5009EDFD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6336B981F0A5632003A9AD7 /* name.png in Resources */,
+				E6513B461F0A148F0081D521 /* customerCare.jpg in Resources */,
+				E6336BAA1F0A5A66003A9AD7 /* calendar@2x.png in Resources */,
+				E6E7BCF21F17885400464C00 /* watermelon@3x.png in Resources */,
+				E6ED83531F18872900F105EC /* anushka.jpg in Resources */,
+				E6336BE21F0A818A003A9AD7 /* failure@2x.png in Resources */,
+				E6E7BCC91F164D2900464C00 /* beneficiaryBG.jpeg in Resources */,
+				E6E7BCFC1F17AA3900464C00 /* liquid@2x.png in Resources */,
+				E6E7BCED1F17885400464C00 /* groceries.png in Resources */,
+				E6581A2B1F20CDCA00EEEA19 /* bg2.jpg in Resources */,
+				E6581A2E1F20D0C100EEEA19 /* bg3.jpg in Resources */,
+				E6336BBB1F0A6BB3003A9AD7 /* correct@2x.png in Resources */,
+				E6336B9A1F0A5632003A9AD7 /* name@3x.png in Resources */,
+				E6513B571F0A154D0081D521 /* notification@2x.jpeg in Resources */,
+				E6336BAC1F0A5A66003A9AD7 /* envelope.png in Resources */,
+				E6E7BD001F17AA3900464C00 /* mail@3x.png in Resources */,
+				E6336BE11F0A818A003A9AD7 /* failure.png in Resources */,
+				E6336BB41F0A5A66003A9AD7 /* smartphone (1)@3x.png in Resources */,
+				E6513B581F0A154D0081D521 /* notification@3x.jpeg in Resources */,
+				E6BEFBA71F0788E5009EDFD3 /* LaunchScreen.storyboard in Resources */,
+				E6513B481F0A148F0081D521 /* customerCare@3x.jpg in Resources */,
+				E6336BAE1F0A5A66003A9AD7 /* envelope@3x.png in Resources */,
+				E6513B2F1F0A07DC0081D521 /* 1.jpg in Resources */,
+				E6513B381F0A0A7C0081D521 /* 2@3x.jpg in Resources */,
+				E6E7BCEB1F17885400464C00 /* coffee@2x.png in Resources */,
+				E6513B361F0A0A7C0081D521 /* 2.jpg in Resources */,
+				E6336BB11F0A5A66003A9AD7 /* key@3x.png in Resources */,
+				E6336B991F0A5632003A9AD7 /* name@2x.png in Resources */,
+				E6336BAD1F0A5A66003A9AD7 /* envelope@2x.png in Resources */,
+				E6513B371F0A0A7C0081D521 /* 2@2x.jpg in Resources */,
+				E6E7BCEC1F17885400464C00 /* coffee@3x.png in Resources */,
+				E6336BE61F0A818A003A9AD7 /* success@3x.png in Resources */,
+				E6E7BCFE1F17AA3900464C00 /* mail.png in Resources */,
+				E6336BB01F0A5A66003A9AD7 /* key@2x.png in Resources */,
+				E6E7BCFF1F17AA3900464C00 /* mail@2x.png in Resources */,
+				E6513B501F0A148F0081D521 /* transfer.jpg in Resources */,
+				E6E7BCEA1F17885400464C00 /* coffee.png in Resources */,
+				E6336BB31F0A5A66003A9AD7 /* smartphone (1)@2x.png in Resources */,
+				E6E7BCEE1F17885400464C00 /* groceries@2x.png in Resources */,
+				E6513B301F0A07DC0081D521 /* 1@2x.jpg in Resources */,
+				E6336BB21F0A5A66003A9AD7 /* smartphone (1).png in Resources */,
+				E6E7BCFB1F17AA3900464C00 /* liquid.png in Resources */,
+				E6513B4E1F0A148F0081D521 /* scanCard@2x.jpg in Resources */,
+				E6336BAB1F0A5A66003A9AD7 /* calendar@3x.png in Resources */,
+				E6513B4F1F0A148F0081D521 /* scanCard@3x.jpg in Resources */,
+				E6336BE41F0A818A003A9AD7 /* success.png in Resources */,
+				E6513B471F0A148F0081D521 /* customerCare@2x.jpg in Resources */,
+				E6336BA91F0A5A66003A9AD7 /* calendar.png in Resources */,
+				E6E7BCFD1F17AA3900464C00 /* liquid@3x.png in Resources */,
+				E6E7BCF11F17885400464C00 /* watermelon@2x.png in Resources */,
+				E6581A2A1F20CDCA00EEEA19 /* bg1.jpg in Resources */,
+				E6336BC81F0A6DEC003A9AD7 /* payzak.png in Resources */,
+				E6336BBA1F0A6BB3003A9AD7 /* correct.png in Resources */,
+				E6BEFBA41F0788E5009EDFD3 /* Assets.xcassets in Resources */,
+				E6336BE51F0A818A003A9AD7 /* success@2x.png in Resources */,
+				E6336BC91F0A6DEC003A9AD7 /* payzak@2x.png in Resources */,
+				E6336BBC1F0A6BB3003A9AD7 /* correct@3x.png in Resources */,
+				E6BEFB9F1F0788E5009EDFD3 /* Main.storyboard in Resources */,
+				E6513B521F0A148F0081D521 /* transfer@3x.jpg in Resources */,
+				E6E7BCEF1F17885400464C00 /* groceries@3x.png in Resources */,
+				E6336BE31F0A818A003A9AD7 /* failure@3x.png in Resources */,
+				E6513B4D1F0A148F0081D521 /* scanCard.jpg in Resources */,
+				E6513B311F0A07DC0081D521 /* 1@3x.jpg in Resources */,
+				E6336BAF1F0A5A66003A9AD7 /* key.png in Resources */,
+				E6513B511F0A148F0081D521 /* transfer@2x.jpg in Resources */,
+				E6513B561F0A154D0081D521 /* notification.jpeg in Resources */,
+				E6336BCA1F0A6DEC003A9AD7 /* payzak@3x.png in Resources */,
+				E6E7BCF01F17885400464C00 /* watermelon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6BEFBAB1F0788E6009EDFD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6BEFBB61F0788E6009EDFD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DA72176364CF87E73B19AE8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Payzak/Pods-Payzak-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48B7E7CD8246EA4BF4DFD4A6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayzakTests/Pods-PayzakTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DE957733557FCDAA07280ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Payzak-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		505856CF2A637F45ADCE9379 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayzakUITests/Pods-PayzakUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		634ACBB329FBE99CB790A928 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Payzak/Pods-Payzak-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Auk/Auk.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/EasyTipView/EasyTipView.framework",
+				"${BUILT_PRODUCTS_DIR}/FoldingCell/FoldingCell.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+				"${BUILT_PRODUCTS_DIR}/moa/moa.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Auk.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EasyTipView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FoldingCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/moa.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Payzak/Pods-Payzak-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FE68D0B05CA72E998C78793 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayzakTests/Pods-PayzakTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CD4CADA0DF6CCCB6145F9AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayzakUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85FE3F527DF0178E0EF76DB3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayzakUITests/Pods-PayzakUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A509F345CABE8E7AB2D566E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayzakTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6BEFB921F0788E5009EDFD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E7BCCB1F173A5500464C00 /* TableViewAnimation.swift in Sources */,
+				E6336BCE1F0A7917003A9AD7 /* LoginViewController.swift in Sources */,
+				E6BEFB9A1F0788E5009EDFD3 /* AppDelegate.swift in Sources */,
+				E6ED83571F18896000F105EC /* ProfileDashedView.swift in Sources */,
+				E6E7BCC71F163A2200464C00 /* ViewAnimation.swift in Sources */,
+				E6C781471F1E0257004E33A7 /* FavouritesTableViewCell.swift in Sources */,
+				E69134E31F1E082F0083B9AB /* HalfModalTransitionAnimator.swift in Sources */,
+				E6BEFBA21F0788E5009EDFD3 /* Payzak.xcdatamodeld in Sources */,
+				E68F36801F14DFDB00ADC07F /* PaynowViewController.swift in Sources */,
+				E69134DF1F1E07870083B9AB /* HalfModalPresentationController.swift in Sources */,
+				E6336BCC1F0A6E8E003A9AD7 /* ButtonAnimation.swift in Sources */,
+				E6ED835B1F18C66100F105EC /* LabelLine.swift in Sources */,
+				E6F6EB401F1A0C390006065F /* RecentActivityTableViewCell.swift in Sources */,
+				E6C781491F1E0273004E33A7 /* FavouritesNavigationController.swift in Sources */,
+				E6336BB61F0A66D8003A9AD7 /* SignupViewController.swift in Sources */,
+				E6481ADF1F1F4230003D1A70 /* QRSignUpViewController.swift in Sources */,
+				E65562811F21D4D100F9EBEE /* KYCVerificationViewController.swift in Sources */,
+				E6E7BCF41F178EF700464C00 /* DashedView.swift in Sources */,
+				E6481ADD1F1F2EEC003D1A70 /* RegisterMethodViewController.swift in Sources */,
+				E6E7BCCD1F177DEE00464C00 /* HistoryTableViewController.swift in Sources */,
+				E617931F1F14A606001BF238 /* TextfieildAnimation.swift in Sources */,
+				E6E7BCC11F162C1500464C00 /* BeneficiaryTableViewController.swift in Sources */,
+				E6C781451F1E023D004E33A7 /* FavouritesViewController.swift in Sources */,
+				E6581A301F20D33400EEEA19 /* GradientView.swift in Sources */,
+				E6E7BCC31F162DB200464C00 /* BeneficiaryFoldingCell.swift in Sources */,
+				E6336B9C1F0A57E5003A9AD7 /* TextfieldLeftImage.swift in Sources */,
+				E6BEFBCE1F078A7A009EDFD3 /* StartViewController.swift in Sources */,
+				E6ED83551F18880500F105EC /* ImageViewAnimation.swift in Sources */,
+				E69134E11F1E07DD0083B9AB /* HalfModalInteractiveTransition.swift in Sources */,
+				E69134E51F1E08650083B9AB /* HalfModalTransitioningDelegate.swift in Sources */,
+				E617931B1F1491B0001BF238 /* DashboardViewController.swift in Sources */,
+				E68F36C41F14FB9100ADC07F /* TableAnimation.swift in Sources */,
+				E6ED83591F1897FC00F105EC /* BezierView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6BEFBA91F0788E6009EDFD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6BEFBB21F0788E6009EDFD3 /* PayzakTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6BEFBB41F0788E6009EDFD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6BEFBBD1F0788E6009EDFD3 /* PayzakUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6BEFBAF1F0788E6009EDFD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6BEFB951F0788E5009EDFD3 /* Payzak */;
+			targetProxy = E6BEFBAE1F0788E6009EDFD3 /* PBXContainerItemProxy */;
+		};
+		E6BEFBBA1F0788E6009EDFD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6BEFB951F0788E5009EDFD3 /* Payzak */;
+			targetProxy = E6BEFBB91F0788E6009EDFD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6BEFB9D1F0788E5009EDFD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6BEFB9E1F0788E5009EDFD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6BEFBA51F0788E5009EDFD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6BEFBA61F0788E5009EDFD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6BEFBBF1F0788E6009EDFD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6BEFBC01F0788E6009EDFD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6BEFBC21F0788E6009EDFD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 990EFC43D93DEE2C85B26D2E /* Pods-Payzak.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 6UV9A5QX2J;
+				INFOPLIST_FILE = Payzak/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"EasyTipView\"",
+					"-framework",
+					"\"FoldingCell\"",
+					"-framework",
+					"\"TextFieldEffects\"",
+					"-framework",
+					"\"moa\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.payzak.Payzak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Payzak/Payzak-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E6BEFBC31F0788E6009EDFD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02D2575FFF406A167130D112 /* Pods-Payzak.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 6UV9A5QX2J;
+				INFOPLIST_FILE = Payzak/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"EasyTipView\"",
+					"-framework",
+					"\"FoldingCell\"",
+					"-framework",
+					"\"TextFieldEffects\"",
+					"-framework",
+					"\"moa\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.payzak.Payzak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Payzak/Payzak-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E6BEFBC51F0788E6009EDFD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A87C5A3E8E0C921DBC96D91C /* Pods-PayzakTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X5JVCUAPH2;
+				INFOPLIST_FILE = PayzakTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.payzak.PayzakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Payzak.app/Payzak";
+			};
+			name = Debug;
+		};
+		E6BEFBC61F0788E6009EDFD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1230717224B7D401E841F3F8 /* Pods-PayzakTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X5JVCUAPH2;
+				INFOPLIST_FILE = PayzakTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.payzak.PayzakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Payzak.app/Payzak";
+			};
+			name = Release;
+		};
+		E6BEFBC81F0788E6009EDFD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D13CDE404DA6BD383B0BCDE /* Pods-PayzakUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = X5JVCUAPH2;
+				INFOPLIST_FILE = PayzakUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.payzak.PayzakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Payzak;
+			};
+			name = Debug;
+		};
+		E6BEFBC91F0788E6009EDFD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF1DAD928D58A40447868FB6 /* Pods-PayzakUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = X5JVCUAPH2;
+				INFOPLIST_FILE = PayzakUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.payzak.PayzakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Payzak;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6BEFB911F0788E5009EDFD3 /* Build configuration list for PBXProject "Payzak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6BEFBBF1F0788E6009EDFD3 /* Debug */,
+				E6BEFBC01F0788E6009EDFD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6BEFBC11F0788E6009EDFD3 /* Build configuration list for PBXNativeTarget "Payzak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6BEFBC21F0788E6009EDFD3 /* Debug */,
+				E6BEFBC31F0788E6009EDFD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6BEFBC41F0788E6009EDFD3 /* Build configuration list for PBXNativeTarget "PayzakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6BEFBC51F0788E6009EDFD3 /* Debug */,
+				E6BEFBC61F0788E6009EDFD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6BEFBC71F0788E6009EDFD3 /* Build configuration list for PBXNativeTarget "PayzakUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6BEFBC81F0788E6009EDFD3 /* Debug */,
+				E6BEFBC91F0788E6009EDFD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E6BEFBA01F0788E5009EDFD3 /* Payzak.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E6BEFBA11F0788E5009EDFD3 /* Payzak.xcdatamodel */,
+			);
+			currentVersion = E6BEFBA11F0788E5009EDFD3 /* Payzak.xcdatamodel */;
+			path = Payzak.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E6BEFB8E1F0788E5009EDFD3 /* Project object */;
+}
